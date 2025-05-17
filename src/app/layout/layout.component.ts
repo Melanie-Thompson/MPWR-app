@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-import { NgOptimizedImage } from '@angular/common';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-layout',
-  imports: [RouterOutlet, RouterLink, RouterLinkActive, NgOptimizedImage],
+  imports: [RouterOutlet],
   templateUrl: './layout.component.html',
   styleUrl: './layout.component.css',
 })
