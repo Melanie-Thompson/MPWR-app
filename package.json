@@ -5,6 +5,8 @@
     "ng": "ng",
     "start": "ng serve --host 0.0.0.0 --port 8080 --disable-host-check",
     "start-pwa": "ng build && http-server -p 8080 -c-1 dist/mpwr-app/browser",
+    "predeploy": "ng build --configuration production --base-href=/mpwr-app/",
+    "deploy": "npx gh-pages -d dist/mpwr-app",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
