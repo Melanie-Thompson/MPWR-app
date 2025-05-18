@@ -1,0 +1,87 @@
+{
+  "configVersion": 1,
+  "timestamp": 1747600858210,
+  "index": "/mpwr-app/index.csr.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/mpwr-app/index.csr.html",
+        "/mpwr-app/index.html",
+        "/mpwr-app/main-MCFOI6RG.js",
+        "/mpwr-app/manifest.webmanifest",
+        "/mpwr-app/polyfills-FFHMD2TL.js",
+        "/mpwr-app/styles-2GB4626I.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/mpwr-app/assets/Emper.png",
+        "/mpwr-app/assets/MPWR-bg-logo.png",
+        "/mpwr-app/assets/MPWR-bg.png",
+        "/mpwr-app/icons/icon-128x128.png",
+        "/mpwr-app/icons/icon-144x144.png",
+        "/mpwr-app/icons/icon-152x152.png",
+        "/mpwr-app/icons/icon-192x192.png",
+        "/mpwr-app/icons/icon-384x384.png",
+        "/mpwr-app/icons/icon-512x512.png",
+        "/mpwr-app/icons/icon-72x72.png",
+        "/mpwr-app/icons/icon-96x96.png",
+        "/mpwr-app/media/MPWR-bg-logo-ZBLWIFQX.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/mpwr-app/assets/Emper.png": "7d2307fbb613254e7c591a8254447521eedae4e8",
+    "/mpwr-app/assets/MPWR-bg-logo.png": "70948b4f2f5578e97be84fc8b90d4e4b0ccc84e0",
+    "/mpwr-app/assets/MPWR-bg.png": "039b16acbd0f7f23b2d8e9b6e863a9ae6e9caa67",
+    "/mpwr-app/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
+    "/mpwr-app/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
+    "/mpwr-app/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
+    "/mpwr-app/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
+    "/mpwr-app/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
+    "/mpwr-app/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
+    "/mpwr-app/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
+    "/mpwr-app/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
+    "/mpwr-app/index.csr.html": "195b198d25657dec642b6f9fa63aa6d567289c67",
+    "/mpwr-app/index.html": "aaffe246f8981ea23994011a0953f41a51ab8a12",
+    "/mpwr-app/main-MCFOI6RG.js": "59f2cac025e880c61c6b3fcc7e5028b85c772358",
+    "/mpwr-app/manifest.webmanifest": "123d3a5325955815e0fc312033be66d8995fd49a",
+    "/mpwr-app/media/MPWR-bg-logo-ZBLWIFQX.png": "70948b4f2f5578e97be84fc8b90d4e4b0ccc84e0",
+    "/mpwr-app/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "/mpwr-app/styles-2GB4626I.css": "1e2b60218386b5cee514965bf372718db137c268"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

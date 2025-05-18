@@ -1,0 +1,6 @@
+{
+  "routes": {
+    "/mpwr-app": {},
+    "/mpwr-app/sign-in": {}
+  }
+}
